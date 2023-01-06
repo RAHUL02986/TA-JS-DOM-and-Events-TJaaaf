@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* customize */
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    height: 100vh;
+    font-family:serif;
+}
+*,
+*::before,
+*::after{
+    box-sizing:  border-box;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* flex */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+display: inline-block;
+padding: .75rem;
+outline: none;
+border: none;
+
+
+}
+
+.btn-primary{
+    color: #000000;
+    background-color: grey;
+    border-radius: 50%;
+
+}
+
+.heading {
+    font-size: 3rem;
+    color:white ;
+    background-color:rgb(30,144,255) ;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    padding: 2rem 2.5rem;
+    font-weight: 700;
+  }
+  /* Main */
+  .board {
+    background-color: var(--secondary);
+    border-radius: 0.4rem;
+    box-shadow: 3px 6px 8px #00000066, -3px 0 8px #00000066;
+  }
+  
+  .symbols {
+    font-size: 4rem;
+    padding: 2rem;
+  }
+  
+  .computer .symbols {
+    color: var(--primary);
+  }
+  
+  .you .symbols {
+    color: green;
+    cursor: pointer;
+  }
+  
+  p {
+    padding-left: 2rem;
+    font-size: 4rem;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+  }
+i{
+    
+    font-size: 4rem;
+    padding: 0 2rem;
+}
+.computer-icon{
+    font-size:4rem ;
+    color: red;
+    padding: 0 2rem;
+
+}
