@@ -66,7 +66,7 @@ input{
   width: 400px;
   height: 40px;
   align-items: center;
-  outline: none;
+  /* outline: none; */
   
 }
 .btn{
@@ -79,7 +79,4 @@ input{
   background-color: yellowgreen;
   border: none;
 }
-.error{
-  border-color:red ;
 
-}
